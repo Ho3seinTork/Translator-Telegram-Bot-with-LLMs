@@ -9,8 +9,8 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 load_dotenv()  # Load environment variables from a .env file
 
 # Retrieve the Telegram bot token and DeepSeek API key from environment variables
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-DEEPSEEK_API_KEY = os.getenv('DEEPSEEK_API_KEY')
+TELEGRAM_TOKEN = os.getenv('7603734689:AAFw4mhm6ry8pWG-HdFJF6RSXNneRAHwiUs')
+DEEPSEEK_API_KEY = os.getenv('sk-5ab846902f054229bdb715cf2e00ae2b')
 if not all([TELEGRAM_TOKEN, DEEPSEEK_API_KEY]):
     raise ValueError("Missing required environment variables")
 
